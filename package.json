@@ -2,9 +2,21 @@
   "name": "assetsmanager-brunch",
   "version": "1.6.3",
   "description": "Adds multiple assets folders support to brunch.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ocombe/assetsmanager-brunch"
+  },
   "main": "./lib/index",
-  "author": "Olivier Combe",
-  "license": "BSD",
+  "author": {
+    "name": "Olivier Combe",
+    "email": "olivier.combe@gmail.com"
+  },
+  "licenses": [
+      {
+          "type": "MIT",
+          "url": "http://github.com/jprichardson/node-fs-extra/raw/master/LICENSE"
+      }
+  ],
   "dependencies": {
     "glob": "~3.2.3",
     "fs-extra": "~0.6.3"
@@ -12,5 +24,11 @@
   "scripts": {},
   "engines": {
     "node": ">=0.8.0"
-  }
+  },
+  "keywords": [
+    "brunch",
+    "plugin",
+    "assets"
+  ],
+  "readmeFilename": "README.md"
 }
