@@ -1,0 +1,16 @@
+{
+  "name": "assetsmanager-brunch",
+  "version": "1.6.3",
+  "description": "Adds multiple assets folders support to brunch.",
+  "main": "./lib/index",
+  "author": "Olivier Combe",
+  "license": "BSD",
+  "dependencies": {
+    "glob": "~3.2.3",
+    "fs-extra": "~0.6.3"
+  },
+  "scripts": {},
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
