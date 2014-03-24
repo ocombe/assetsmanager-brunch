@@ -20,5 +20,5 @@ plugins:
     assetsmanager:
         copyTo:
             'myFolder' : ['app/myFolder/include', 'app/css/img'],
-            'myAssets': ['app/assets']
+            'myAssets': ['app/assets/*']
 ```
