@@ -20,6 +20,7 @@ assetsmanager: {
     copyTo: {
         'myFolder' : ['app/myFolder/include', 'app/css/img'],
         'myAssets': ['app/assets/*']
-    }
+    },
+    minTimeSpanSeconds: 10 // assets won't be copied more frequent than once per X seconds.
 }
 ```
