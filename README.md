@@ -3,6 +3,8 @@ assetsmanager-brunch
 
 Adds multiple assets folders / multiple destination support to brunch.
 
+**Warning: This plugin is probably _deprecated_, if anyone wants to take over, send me a mail or open an issue**
+
 ###Install the plugin :
 ```js
 npm install --save assetsmanager-brunch
